@@ -1,0 +1,39 @@
+{
+    "name": "gradba/flarum-s3-avatars",
+    "description": "Store Flarum user avatars in an S3-compatible bucket (Cloudflare R2, AWS S3, MinIO) so Flarum can run stateless.",
+    "keywords": ["flarum", "avatars", "s3", "r2", "cloudflare", "storage", "kubernetes"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gradba.mk",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.8",
+        "league/flysystem-aws-s3-v3": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gradba\\S3Avatars\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "S3 Avatars",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-circle",
+                "backgroundColor": "#0d9488",
+                "color": "#fff"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/gradba/flarum-s3-avatars",
+        "issues": "https://github.com/gradba/flarum-s3-avatars/issues"
+    }
+}

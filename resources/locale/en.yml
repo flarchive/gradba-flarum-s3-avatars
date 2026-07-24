@@ -1,0 +1,24 @@
+gradba-s3-avatars:
+  admin:
+    settings:
+      inheritFromFofUpload: Reuse FoF Upload's bucket credentials
+      inheritFromFofUpload-Help: >-
+        Recommended when FoF Upload already stores attachments in the bucket you
+        want to use — avatars go to the same place with no second copy of the
+        credentials. Turn off to configure a separate bucket below.
+      cacheControl: Cache lifetime for avatars (seconds)
+      cacheControl-Help: >-
+        Sent as max-age when an avatar is uploaded. Avatars get a fresh random
+        filename on every change, so a long lifetime is safe. 31536000 = 1 year.
+      credentials: Bucket credentials
+      credentials-Help: >-
+        Only used when "Reuse FoF Upload's bucket credentials" is off. Environment
+        variables (GRADBA_AVATARS_S3_*) override everything here, which is how you
+        should supply them in Kubernetes.
+      key: Access key ID
+      secret: Secret access key
+      region: Region (use "auto" for Cloudflare R2)
+      bucket: Bucket name
+      endpoint: Endpoint (S3 API URL, not the public URL)
+      pathStyle: Use path-style endpoint (required for R2)
+      url: Public base URL (e.g. https://cdn.example.com)
