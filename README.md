@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of gradba/flarum-s3-avatars.** Not for installation: use [Packagist](https://packagist.org/packages/gradba/flarum-s3-avatars) or the [upstream repository](https://github.com/gradba/flarum-s3-avatars).
 
-**0** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/gradba-flarum-s3-avatars/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^1.8`
+**2** versions archived · Latest: [`v1.0.1`](https://github.com/flarchive/gradba-flarum-s3-avatars/tree/archive/v1.0.1) · License: `MIT` · Flarum: `^1.8`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-07-24 | `^1.8` | [Browse](https://github.com/flarchive/gradba-flarum-s3-avatars/tree/archive/v1.0.0) |
+| `v1.0.1` | 2026-07-24 | `^1.8` | [Browse](https://github.com/flarchive/gradba-flarum-s3-avatars/tree/archive/v1.0.1) |
 
 Catalog entry: [packages/gradba-flarum-s3-avatars.json](https://github.com/flarchive/archive-index/blob/main/packages/gradba-flarum-s3-avatars.json)
 
